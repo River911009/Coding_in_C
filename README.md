@@ -16,4 +16,12 @@ Most tutorial of C language is start from enviroment to basic algorithm:
 2.  **Variable**
     *   Variable types
 3.  **Operator**
-4.  **Select**
+4.  **Decision**
+5.  **Loop**
+6.  **Function**
+7.  **Array**
+8.  **Pointer**
+9.  **String**
+10. **Pre-processor**
+11. **Structure, union, enum and typedef**
+12. **File I/O**
