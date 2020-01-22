@@ -43,11 +43,13 @@
 
 > ASCII table
 
-This program exchanges lower case character to upper case in English.
-Of course, it check every character which is lower case or not then exchange it to upper case word.
+This program changes lower case character to upper case in English.
+Of course, it check every character which is lower case or not then change it to upper case word.
 
 Question #1:
+Add another function to change upper case to lower case.
 
 Question #2:
+According the ASCII table, characters subtract 32 will become to upper case. But if we want to change to unknow string and it can be decrypt to original string, so it is a encrypt/decrypt program.
 
 ### End
