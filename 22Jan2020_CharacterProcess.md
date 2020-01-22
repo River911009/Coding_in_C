@@ -50,6 +50,6 @@ Question #1:
 Add another function to change upper case to lower case.
 
 Question #2:
-According to the ASCII table, characters subtract 32 will become to upper case. But if we want to change to unknow string and it can be decrypt to original string, so it is a encrypt/decrypt program.
+According to the ASCII table, characters subtract 32 will become to upper case. But if we want to change it to unknow string and decrypt to original string, so it is a encrypt/decrypt program. How do you make it work?
 
 ### End
