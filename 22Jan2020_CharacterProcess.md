@@ -43,7 +43,7 @@
 
 > ASCII table
 
-This program changes lower case character to upper case in English.
+This program changes lower case characters to upper case in English.
 Of course, it check every character which is lower case or not then change it to upper case word.
 
 Question #1:
