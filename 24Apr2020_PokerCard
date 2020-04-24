@@ -1,0 +1,49 @@
+#include <stdio.h>
+#include <stdlib.h>
+#include <time.h>
+
+struct card{
+	int flower;
+	int number;
+};
+
+const char *str[]    = {"梅花","方塊","愛心","黑桃"};
+const char *strNum[] = {"3","4","5","6","7","8","9","10","J","Q","K","A","2"};
+
+int main(void){
+	card myCard, comCard;
+	char c;
+	
+	do{
+		
+		srand(time(NULL));
+		myCard.flower=rand()%4;
+		myCard.number=rand()%13;
+		comCard.flower=rand()%4;
+		comCard.number=rand()%13;
+	
+		printf("myCard:  %s %s\n", str[myCard.flower], strNum[myCard.number]);
+		printf("comCard: %s %s\n", str[comCard.flower], strNum[comCard.number]);
+	
+		if(myCard.number == comCard.number){
+			if(myCard.flower == comCard.flower){
+				continue;
+			}
+			else if(myCard.flower < comCard.flower){
+				printf("loser");
+			}
+			else{
+				printf("winer");
+			}
+		}
+		else if(myCard.number < comCard.number){
+			printf("loser");
+		}
+		else{
+			printf("winer");
+		}
+			
+		printf("\nagain?");
+		scanf("%c", &c);
+	}while(c=='y');
+}
